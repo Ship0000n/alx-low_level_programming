@@ -5,7 +5,7 @@
  *
  * Description: A C program that print with put function
  *
- * return: Alawys 0 (Success)
+ * Return: Alawys 0 (Success)
 */
 
 int main(void)
