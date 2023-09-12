@@ -9,19 +9,17 @@
 
 int main(void)
 {
-unsigned long fib1 = 0, fib2 = 1, sum;
-float total_sum;
+int i = 0;
+long j = 1, k = 2, sum = k;
 
-while (1)
+while (k + j < 4000000)
 {
-sum = fib1 + fib2;
-if (sum > 4000000)
-break;
-if ((sum % 2) == 0)
-total_sum += sum
-fib1 = fib2;
-fib2 = sum;
+k += j;
+if (k % 2 == 0)
+sum += k;
+j = k - j;
+++i;
 }
-printf("%.0f\n", total_sum);
+printf("%ld", sum);
 return (0);
-}
+}}
