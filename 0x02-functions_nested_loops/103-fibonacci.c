@@ -22,4 +22,4 @@ j = k - j;
 }
 printf("%ld", sum);
 return (0);
-}}
+}
